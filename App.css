@@ -1,0 +1,173 @@
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.top-navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+} 
+
+.navlogo{
+  width: 30%;
+  color: #B2B377;
+}
+
+.navbar{
+  text-align: center;
+}
+
+.navbar .logo{
+  font-size: 50px;
+}
+
+.navmid{
+  width: 30%;
+}
+
+.mid-navbar{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 20px;
+  margin: auto;
+}
+
+.mid-navbar h6{
+  font-size: 36px;
+  margin-left: 30px;
+}
+
+.mid-navbar h6 a{
+  text-decoration: none;
+  color: black;
+}
+
+.navend{
+  width: 30%;
+}
+
+.nav-end{
+  margin: auto;
+  text-align: center;
+}
+
+.nav-end .Signin{
+    padding: 10px;
+    border-radius: 50px;
+    color: black;
+    font-size: 15px;
+    width: 81px;
+    background-color: #E5E483;
+    border: none;
+}
+
+.main{
+  margin-top: 65px;
+}
+
+.main-heading{
+  text-align: center;
+  font-size: 30px;
+}
+
+.mid-content{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.mid-content .searchbar{
+  width: 49rem;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 20px;
+  padding: 15px;
+  border: 2px solid rgb(182, 174, 174);
+}
+
+.mid-content .searchbtn{
+  top: 245px ;
+  width: 96px;
+  height: 39px;
+  border-radius: 23px;
+  position: absolute;
+  left: 77.6rem;
+  background-color: #E5E483;
+  color: black;
+  border: none;
+  font-size: 17px;
+}
+
+.datentime{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.datentime p{
+  font-size: 22px;
+}
+
+.datentime .cdate{
+  margin-left: 9px;
+}
+
+.datentime .currenttime{
+  margin-left: 50px;
+}
+
+.datentime .ctime{
+  margin-left: 9px;
+}
+
+.imgsection{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.imgsection img{
+  border-radius: 20px;
+  width: 55%;
+}
+
+.data{
+  margin-top: 20px;
+}
+
+.data .selectvalue{
+    width: 40rem;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 25px;
+    padding-left: 20px;
+}
+
+.data .selectbtn{
+  width: 96px;
+  height: 39px;
+  margin-left: 24px;
+  font-size: 18px;
+  padding: 3px;
+  border-radius: 30px;
+  background-color: #E5E483;
+  color: black;
+  border: none;
+}
+
+.tablehead td th{
+    margin: 20px;
+}
+
+.chatbot-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: #fff; /* Adjust background color as needed */
+  border-top: 1px solid #ccc; /* Optional: Add a border at the top */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+}
